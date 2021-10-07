@@ -10,9 +10,11 @@ int assign_var(array_3D*);
 int var;
 char *s1,*s2;
 static int count;
-void scan_strings(char*,char*);
-int compare(char*,char*);
+void scan_string1();
+void scan_string2();
+int compare();
 void create_tree();
 int pattern_abcd();
+void create_tree();
 //int (*s_fun)(char*,char*)=compare;
 

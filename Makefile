@@ -2,7 +2,7 @@
 CC= gcc
 CFLAGS= -c
 
-mock: assign_rand.o  source_code.o  string_code.o  pattern_code.o
+mock: assign_rand.o  source_code.o  string_code.o  pattern_code.o tree_code.o
 	gcc $^ -o $@
 
 .c:.o

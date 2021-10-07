@@ -26,12 +26,14 @@ pattern:
 	goto end;
  
 flow:
+	var=1;
 	if(var&1)// Even
-		printf("1\n");
-		//tree();
+		create_tree();
 
-	else  // ODD
-		scan_strings(s1,s2);
+	else { // ODD
+	scan_string1();
+	scan_string2();
+       }
         if(!(var%10))
          goto pattern;
         //pattern_abcd();
